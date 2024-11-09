@@ -5,10 +5,10 @@ const connectDB = require('./config/connectDB')
 const router = require('./router/index')
 const cookiesParser = require('cookie-parser')
 const {app,server} = require('./socket/index')
-
+const allowedOrigins = ['https://chatapp1003.netlify.app/']
 //const app = express()
 app.use(cors({
-    origin : process.env.FRONTEND_URL,
+    origin : allowedOrigins,
     credentials : true
 }))
 app.use(express.json())
