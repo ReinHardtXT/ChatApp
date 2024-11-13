@@ -29,6 +29,15 @@ Make sure you have the following installed:
 
 - Node.js and npm
 
+Environment Variables 
+Client
+REACT_APP_CLOUDINARY_CLOUD_NAME =  ""
+REACT_APP_BACKEND_URL = ""
+Server
+FRONTEND_URL = ""
+MONGODB_URI = ""
+JWT_SECRET_KEY = ""
+
 ### Installation
 
 1. Clone the repository:
