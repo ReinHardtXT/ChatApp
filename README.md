@@ -12,7 +12,7 @@ A real-time chat application built with React, Redux, Socket.io, Node.js, and Ta
 ## Features
 
 - Real-time messaging with Socket.io
-- User authentication (if implemented)
+- User authentication 
 - Responsive design with Tailwind CSS
 - State management with Redux
 
